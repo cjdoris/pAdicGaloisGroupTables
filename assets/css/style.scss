@@ -6,3 +6,13 @@
 .inner {
   max-width: 1000px;
 }
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
