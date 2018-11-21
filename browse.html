@@ -12,14 +12,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Experimental code for computing Galois groups over p-adic fields." />
 <meta property="og:description" content="Experimental code for computing Galois groups over p-adic fields." />
-<link rel="canonical" href="https://cjdoris.github.io/pAdicGaloisGroup/tables/browse" />
-<meta property="og:url" content="https://cjdoris.github.io/pAdicGaloisGroup/tables/browse" />
+<link rel="canonical" href="https://cjdoris.github.io/pAdicGaloisGroupTables/browse" />
+<meta property="og:url" content="https://cjdoris.github.io/pAdicGaloisGroupTables/browse" />
 <meta property="og:site_name" content="pAdicGaloisGroup" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Galois groups browser","url":"https://cjdoris.github.io/pAdicGaloisGroup/tables/browse","description":"Experimental code for computing Galois groups over p-adic fields.","@context":"http://schema.org"}</script>
+{"@type":"WebPage","headline":"Galois groups browser","url":"https://cjdoris.github.io/pAdicGaloisGroupTables/browse","description":"Experimental code for computing Galois groups over p-adic fields.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/pAdicGaloisGroup/assets/css/style.css">
+    <link rel="stylesheet" href="/pAdicGaloisGroupTables/assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
   <body>
@@ -133,7 +133,7 @@
       let degree = parseInt(getvars.degree, 10);
       let suffix = getvars.suffix;
       let csvfile = 'p'+prime+'_d'+degree+(suffix?'_'+suffix:'')+'.csv';
-      let csvurl = 'https://raw.githubusercontent.com/cjdoris/pAdicGaloisGroup/master/tables/' + csvfile;
+      let csvurl = 'https://raw.githubusercontent.com/cjdoris/pAdicGaloisGroupTables/master/' + csvfile;
       $('#prime').text(prime);
       $('#degree').text(degree);
       if (suffix) {
