@@ -1,3 +1,5 @@
+---
+---
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <h1>Degree <span id="degree">(unknown)</span> extensions of &#8474;<sub id="prime">(unknown)</sub></h1>
 <div id="info"></div>
