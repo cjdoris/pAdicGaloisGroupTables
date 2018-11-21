@@ -1,6 +1,6 @@
 # Tables of Galois groups
 
-This directory contains CSV files describing the Galois groups of polynomials over the *p*-adic field &#8474;<sub><em>p</em></sub>. Each file has *d*+2 columns, the first *d*+1 columns being the coefficients of a degree *d* polynomial, and the final column being the T-number (see [here](http://groupnames.org/T31.html), [here](https://hobbes.la.asu.edu/Groups/) or [here](https://magma.maths.usyd.edu.au/magma/handbook/text/753)) of its Galois group. These were computed with the `[pAdicGaloisGroup](https://cjdoris.github.io/pAdicGaloisGroup)` package.
+This directory contains CSV files describing the Galois groups of polynomials over the *p*-adic field &#8474;<sub><em>p</em></sub>. Each file has *d*+2 columns, the first *d*+1 columns being the coefficients of a degree *d* polynomial, and the final column being the T-number (see [here](http://groupnames.org/T31.html), [here](https://hobbes.la.asu.edu/Groups/) or [here](https://magma.maths.usyd.edu.au/magma/handbook/text/753)) of its Galois group. These were computed with the [`pAdicGaloisGroup`](https://cjdoris.github.io/pAdicGaloisGroup) package.
 
 Unless otherwise specified in the notes column, the files contain precisely one defining polynomial for every field of the given degree.
 
